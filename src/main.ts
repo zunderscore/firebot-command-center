@@ -24,14 +24,14 @@ const script: Firebot.CustomScript<Params> = {
       pageTitle: {
         type: "string",
         default: "Firebot Command Center",
-        description: "Page Title",
-        secondaryDescription: "Enter the title for the Firebot Command Center page. Default is \"Firebot Command Center\"."
+        title: "Page Title",
+        description: "Enter the title for the Firebot Command Center page. Default is \"Firebot Command Center\"."
       },
       hostname: {
         type: "string",
         default: "localhost",
-        description: "Hostname",
-        secondaryDescription: "Enter the hostname to use when calling back to Firebot. Default is \"localhost\"."
+        title: "Hostname",
+        description: "Enter the hostname to use when calling back to Firebot. Default is \"localhost\"."
       }
     };
   },
