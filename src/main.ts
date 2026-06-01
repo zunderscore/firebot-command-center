@@ -17,6 +17,7 @@ const script: Firebot.CustomScript<Params> = {
       author: "zunderscore",
       version: "1.0",
       firebotVersion: "5",
+      startupOnly: true
     };
   },
   getDefaultParameters: () => {
